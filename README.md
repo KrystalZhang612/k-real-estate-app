@@ -24,7 +24,7 @@ A modern real estate React and Next.js application with rental homes and for sal
 [Prerequisites & Setups](https://github.com/KrystalZhang612/K-RealEstate-App/blob/main/README.md#prerequisites--setups)<br/> 
 [Debugging&Troubleshooting](https://github.com/KrystalZhang612/K-RealEstate-App/blob/main/README.md#debugging--troubleshooting)<br/> 
 [Synchronous Developing Notes](https://github.com/KrystalZhang612/K-RealEstate-App/blob/main/README.md#synchronous-developing-notes)<br/> 
-[Testing Result]()<br/> 
+[Testing Result](https://github.com/KrystalZhang612/K-RealEstate-App/blob/main/README.md#testing-result)<br/> 
 [Tags and Topics]()<br/> 
 # Contribution
 [Author]()
@@ -163,6 +163,18 @@ Implement all sections in navbar:<br/>
 [buy property section done implementing.PNG](https://github.com/KrystalZhang612/K-RealEstate-App/blob/main/testing-result-k-real-estate-app/buy%20property%20section%20done%20implementing.PNG)<br/>  
 [rent property section done implementing.PNG](https://github.com/KrystalZhang612/K-RealEstate-App/blob/main/testing-result-k-real-estate-app/rent%20property%20section%20done%20implementing.PNG)<br/>
 # Testing Result 
+<p align = "center">
+  <img src = "https://github.com/KrystalZhang612/K-RealEstate-App/blob/main/testing-result-k-real-estate-app/banner%20images%20imported.PNG">&nbsp;
+  <img src = "https://github.com/KrystalZhang612/K-RealEstate-App/blob/main/testing-result-k-real-estate-app/data%20fetched%20in%20console.PNG">&nbsp; 
+  <img src = "https://github.com/KrystalZhang612/K-RealEstate-App/blob/main/testing-result-k-real-estate-app/layout%20done%20customizing.PNG">&nbsp;
+  <img src = "https://github.com/KrystalZhang612/K-RealEstate-App/blob/main/testing-result-k-real-estate-app/navbar%20done%20customizing.PNG">&nbsp;
+  <img src = "https://github.com/KrystalZhang612/K-RealEstate-App/blob/main/testing-result-k-real-estate-app/footer%20done%20customizing.PNG">&nbsp;
+  <img src = "https://github.com/KrystalZhang612/K-RealEstate-App/blob/main/testing-result-k-real-estate-app/search%20by%20filter%20done%20implementing.PNG">&nbsp; 
+  <img src = "https://github.com/KrystalZhang612/K-RealEstate-App/blob/main/testing-result-k-real-estate-app/buy%20property%20section%20done%20implementing.PNG">&nbsp; 
+  <img src = "https://github.com/KrystalZhang612/K-RealEstate-App/blob/main/testing-result-k-real-estate-app/rent%20property%20section%20done%20implementing.PNG">
+</p>
+
+
 
 
 

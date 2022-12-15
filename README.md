@@ -22,7 +22,7 @@ A modern real estate React and Next.js application with rental homes and for sal
 # Build
 [Method to Run & Test the Project Locally](https://github.com/KrystalZhang612/K-RealEstate-App/blob/main/README.md#method-to-run--test-the-project-locally)<br/> 
 [Prerequisites & Setups](https://github.com/KrystalZhang612/K-RealEstate-App/blob/main/README.md#prerequisites--setups)<br/> 
-[Debugging&Troubleshooting]()<br/> 
+[Debugging&Troubleshooting](https://github.com/KrystalZhang612/K-RealEstate-App/blob/main/README.md#debugging--troubleshooting)<br/> 
 [Synchronous Developing Notes](https://github.com/KrystalZhang612/K-RealEstate-App/blob/main/README.md#synchronous-developing-notes)<br/> 
 [Testing Result]()<br/> 
 [Tags and Topics]()<br/> 
@@ -82,6 +82,8 @@ Install needed dependencies:
 npm install @chakra-ui/react @emotion/react @emotion/styled axios framer-motion millify nprogress react-horizontal-scrolling-menu react-icons
 ```
 # Debugging & Troubleshooting 
+- avascript validation error: [js] ` File is a CommonJS module; it may be converted to an ES6 module` DBUGGING: Disable them by setting: `"typescript.suggestionActions.enabled": false or "javascript.suggestionActions.enabled": false` in in user/workspace settings in [vscode/settings.json](https://github.com/KrystalZhang612/K-RealEstate-App/blob/main/.vscode/settings.json).
+- extJS deprecated Error:  `<Link>` no longer has `<a>` as its child. DEBUGGING: replace `import next/image` to `next/legacy/image.` Replace `<a></a>` with `<legacyBehavior></legacyBehavior>` and so: `<Link href={linkName}><legacyBehavior>{buttonText}</legacyBehavior></Link>`
 
 # Synchronous Developing Notes
 Import banner images in [pages/index.js](https://github.com/KrystalZhang612/K-RealEstate-App/blob/main/pages/index.js):
@@ -104,6 +106,65 @@ module.exports = {
   images:{
     domains:['bayut-production.s3.eu-central-1.amazonaws.com']}}
 ```
+[banner images imported.PNG](https://github.com/KrystalZhang612/K-RealEstate-App/blob/main/testing-result-k-real-estate-app/banner%20images%20imported.PNG)<br/>
+Fetch real estate properties data from RapidAPI https://rapidapi.com/apidojo/api/bayut
+```JavaScript 
+console.log(propertyForSale, propertyForRent);
+```
+[data fetched in console.PNG](https://github.com/KrystalZhang612/K-RealEstate-App/blob/main/testing-result-k-real-estate-app/data%20fetched%20in%20console.PNG)<br/>
+Import assets images in [Property.jsx](https://github.com/KrystalZhang612/K-RealEstate-App/blob/main/components/Property.jsx):
+```JavaScript 
+const Property = ({ property: { coverPhoto, price, rentFrequency,
+rooms, title, baths, area, agency, isVerified, externalID } }) => (
+    <Link href={`/property/${externalID}`} passHref>
+        <Flex flexWrap="wrap" w="420px" p="5" paddingTop="0"
+justifyContent="flex-start" cursor="pointer">
+                <Image src={coverPhoto ? coverPhoto.url :
+DefaultImage} width={400} height = {260} alt = "house"/>
+</Box>
+...
+```
+Get statics props and customize layout in [Layout.jsx](https://github.com/KrystalZhang612/K-RealEstate-App/blob/main/components/Layout.jsx).
+```JavaScript 
+export async function getStaticProps() {
+  const propertyForSale = await
+fetchApi(`${baseUrl}/properties/list?locationExternalIDs=5002&purpose=
+for-sale&hitsPerPage=6`);
+const propertyForRent = await fetchApi(`${baseUrl}/properties/list?locationExternalIDs=5002&purpose= for-rent&hitsPerPage=6`);
+```
+[layout done customizing.PNG](https://github.com/KrystalZhang612/K-RealEstate-App/blob/main/testing-result-k-real-estate-app/layout%20done%20customizing.PNG)<br/> 
+## ***Navbar Customization:***
+Implement all sections of navbar in [Navbar.jsx](https://github.com/KrystalZhang612/K-RealEstate-App/blob/main/components/Navbar.jsx):
+```JavaScript 
+ <MenuButton as={IconButton} icon={<FcMenu />} variant='outline'
+color='red.400' />
+<MenuList>
+    <Link href='/' passHref>
+        <MenuItem icon={<FcHome />}>Home</MenuItem>
+    </Link>
+    ...
+```
+[navbar done customizing.PNG](https://github.com/KrystalZhang612/K-RealEstate-App/blob/main/testing-result-k-real-estate-app/navbar%20done%20customizing.PNG)<br/>
+## ***Footer Customization:***
+Implement Footer in [Footer.jsx](https://github.com/KrystalZhang612/K-RealEstate-App/blob/main/components/Footer.jsx):
+```JavaScript 
+const Footer = () => (
+<Box textAlign='center' p='5' color='gray.600' borderTop='1px'
+borderColor='gray.100'>
+        © 2022 K-Real Estate, Inc.
+    </Box>
+    ...
+```
+[footer done customizing.PNG](https://github.com/KrystalZhang612/K-RealEstate-App/blob/main/testing-result-k-real-estate-app/footer%20done%20customizing.PNG)<br/>
+## ***Search Page:***
+Add [SearchFilter.jsx](https://github.com/KrystalZhang612/K-RealEstate-App/blob/main/components/SearchFilters.jsx) and [dataFilter.js](https://github.com/KrystalZhang612/K-RealEstate-App/blob/main/utils/filterData.js) to implement search bar:
+[search by filter done implementing.PNG](https://github.com/KrystalZhang612/K-RealEstate-App/blob/main/testing-result-k-real-estate-app/search%20by%20filter%20done%20implementing.PNG)<br/> 
+Implement all sections in navbar:<br/> 
+[buy property section done implementing.PNG](https://github.com/KrystalZhang612/K-RealEstate-App/blob/main/testing-result-k-real-estate-app/buy%20property%20section%20done%20implementing.PNG)<br/>  
+[rent property section done implementing.PNG](https://github.com/KrystalZhang612/K-RealEstate-App/blob/main/testing-result-k-real-estate-app/rent%20property%20section%20done%20implementing.PNG)<br/>
+# Testing Result 
+
+
 
 
 

@@ -49,11 +49,7 @@ A modern real estate React and Next.js application with rental homes and for sal
 ### Start the webserver to test KRealREstate App by running: `npm run dev` or `yarn dev` at localhost:3000
 ### Terminate the server by CONTROL+C
 ### Have fun browsing, filtering, renting, and selecting various of different properties! 
-
-
-
-
-
+# 🛠️ Developing Languages, Tools, and Techniques Needed
 
 
 

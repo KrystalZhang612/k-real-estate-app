@@ -25,7 +25,7 @@ A modern real estate React and Next.js application with rental homes and for sal
 [Debugging&Troubleshooting](https://github.com/KrystalZhang612/K-RealEstate-App/blob/main/README.md#debugging--troubleshooting)<br/> 
 [Synchronous Developing Notes](https://github.com/KrystalZhang612/K-RealEstate-App/blob/main/README.md#synchronous-developing-notes)<br/> 
 [Testing Result](https://github.com/KrystalZhang612/K-RealEstate-App/blob/main/README.md#testing-result)<br/> 
-[Tags and Topics]()<br/> 
+[Tags and Topics](https://github.com/KrystalZhang612/K-RealEstate-App/blob/main/README.md#tags-and-topics)<br/> 
 # Contribution
 [Author](https://github.com/KrystalZhang612/K-RealEstate-App/blob/main/README.md#author)
 # Compatiability 

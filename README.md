@@ -58,7 +58,7 @@ A modern real estate React and Next.js application with rental homes and for sal
 <div>
   <img src = "https://github.com/devicons/devicon/blob/master/icons/vscode/vscode-original.svg" title ="VSCODE" width ="60" height="60"/>&nbsp; 
   <img src = "https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title ="JAVASCRIPT" width ="60" height="60"/>&nbsp; 
-  <img src = "https://github.com/devicons/devicon/blob/master/icons/nextjs/nextjs-original.svg" title ="NEXTJS" width ="60" height="60"/>&nbsp; 
+  <img src = "https://github.com/KrystalZhang612/images-attachments-collection/blob/main/rapidapi%20logo.png" title ="RAPIDAPI" width ="60" height="60"/>&nbsp; 
   <img src = "https://github.com/devicons/devicon/blob/master/icons/yarn/yarn-original.svg" title ="YARN" width ="60" height="60"/>&nbsp; 
 </div>
 

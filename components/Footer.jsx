@@ -5,5 +5,4 @@ const Footer = () => (
         © 2022 K-Real Estate, Inc.
     </Box>
 );
-
 export default Footer;

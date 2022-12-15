@@ -6,6 +6,11 @@ A modern real estate React and Next.js application with rental homes and for sal
 
 ### ***Please carefully read [LICENSE.md](https://github.com/KrystalZhang612/K-RealEstate-App/blob/main/LICENSE) about the Open Source restrictions and the personal use policy of this project under [GPL-3.0 license](https://www.gnu.org/licenses/gpl-3.0.en.html), any commericial uses on this project by other than the owner [@KrystalZhang612](https://github.com/KrystalZhang612) or the authorized users and organizations will be subjected to copyright violation with sebsequent potential legal concerns.***
 ## KRealEstate App Overview:
+<p align = "center">
+  <img src = "https://github.com/KrystalZhang612/K-RealEstate-App/blob/main/testing-result-k-real-estate-app/KRealEstateApp%20Overview-1.PNG">&nbsp; 
+  
+</p>
+
 
 
 

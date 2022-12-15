@@ -55,6 +55,15 @@ A modern real estate React and Next.js application with rental homes and for sal
 [Next.JS](https://nextjs.org/)<br/> 
 [Chakra UI](https://chakra-ui.com/)<br/> 
 [RapidAPI Bayut API](https://rapidapi.com/apidojo/api/bayut)<br/>
+<div>
+  <img src = "https://github.com/devicons/devicon/blob/master/icons/vscode/vscode-original.svg" title ="VSCODE" width ="60" height="60"/>&nbsp; 
+  <img src = "https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title ="JAVASCRIPT" width ="60" height="60"/>&nbsp; 
+  <img src = "https://github.com/devicons/devicon/blob/master/icons/nextjs/nextjs-original.svg" title ="NEXTJS" width ="60" height="60"/>&nbsp; 
+  <img src = "https://github.com/devicons/devicon/blob/master/icons/yarn/yarn-original.svg" title ="YARN" width ="60" height="60"/>&nbsp; 
+</div>
+
+
+
 
 
 

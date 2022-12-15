@@ -47,7 +47,6 @@ const Home = ({ propertiesForSale, propertiesForRent }) => (
     </Flex>
   </Box>
 );
-
 export async function getStaticProps() {
   const propertyForSale = await fetchApi(`${baseUrl}/properties/list?locationExternalIDs=5002&purpose=for-sale&hitsPerPage=6`);
   const propertyForRent = await fetchApi(`${baseUrl}/properties/list?locationExternalIDs=5002&purpose=for-rent&hitsPerPage=6`);
@@ -58,6 +57,5 @@ export async function getStaticProps() {
       propertiesForRent: propertyForRent?.hits,
     },
   };
-}
-
+};
 export default Home;

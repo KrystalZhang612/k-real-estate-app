@@ -8,7 +8,14 @@ A modern real estate React and Next.js application with rental homes and for sal
 ## KRealEstate App Overview:
 <p align = "center">
   <img src = "https://github.com/KrystalZhang612/K-RealEstate-App/blob/main/testing-result-k-real-estate-app/KRealEstateApp%20Overview-1.PNG">&nbsp; 
-  
+  <img src = "https://github.com/KrystalZhang612/K-RealEstate-App/blob/main/testing-result-k-real-estate-app/KRealEstateApp%20Overview-2.PNG">&nbsp; 
+  <img src = "https://github.com/KrystalZhang612/K-RealEstate-App/blob/main/testing-result-k-real-estate-app/KRealEstateApp%20Overview-3.PNG">&nbsp;
+  <img src = "https://github.com/KrystalZhang612/K-RealEstate-App/blob/main/testing-result-k-real-estate-app/KRealEstateApp%20Overview-4.PNG">&nbsp; 
+  <img src = "https://github.com/KrystalZhang612/K-RealEstate-App/blob/main/testing-result-k-real-estate-app/KRealEstateApp%20Overview-5.PNG">&nbsp; 
+  <img src = "https://github.com/KrystalZhang612/K-RealEstate-App/blob/main/testing-result-k-real-estate-app/KRealEstateApp%20Overview-6.PNG">&nbsp; 
+  <img src = "https://github.com/KrystalZhang612/K-RealEstate-App/blob/main/testing-result-k-real-estate-app/KRealEstateApp%20Overview-7.PNG">&nbsp; 
+  <img src = "https://github.com/KrystalZhang612/K-RealEstate-App/blob/main/testing-result-k-real-estate-app/KRealEstateApp%20Overview-8.PNG">&nbsp;
+  <img src = "https://github.com/KrystalZhang612/K-RealEstate-App/blob/main/testing-result-k-real-estate-app/KRealEstateApp%20Overview-9.PNG">&nbsp; 
 </p>
 
 

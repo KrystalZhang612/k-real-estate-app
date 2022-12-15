@@ -23,7 +23,7 @@ A modern real estate React and Next.js application with rental homes and for sal
 [Method to Run & Test the Project Locally](https://github.com/KrystalZhang612/K-RealEstate-App/blob/main/README.md#method-to-run--test-the-project-locally)<br/> 
 [Prerequisites & Setups](https://github.com/KrystalZhang612/K-RealEstate-App/blob/main/README.md#prerequisites--setups)<br/> 
 [Debugging&Troubleshooting]()<br/> 
-[Synchronous Developing Notes]()<br/> 
+[Synchronous Developing Notes](https://github.com/KrystalZhang612/K-RealEstate-App/blob/main/README.md#synchronous-developing-notes)<br/> 
 [Testing Result]()<br/> 
 [Tags and Topics]()<br/> 
 # Contribution
@@ -81,7 +81,41 @@ Install needed dependencies:
 ```bash 
 npm install @chakra-ui/react @emotion/react @emotion/styled axios framer-motion millify nprogress react-horizontal-scrolling-menu react-icons
 ```
+# Debugging & Troubleshooting 
+
 # Synchronous Developing Notes
+Import banner images in [pages/index.js](https://github.com/KrystalZhang612/K-RealEstate-App/blob/main/pages/index.js):
+```JavaScript 
+<Banner
+        purpose="RENT A HOME"
+        title1="Rental Homes for"
+        title2="Everyone"
+        desc1="Explore Fancy Apartments, Villas, Homes!"
+        desc2="and more!"
+        buttonText="Explore Renting!"
+       linkName="/search?purpose=for-rent"
+imageUrl="https://bayut-production.s3.eu-central-1.amazonaws.com/image /145426814/33973352624c48628e41f2ec460faba4"
+...
+```
+Configure image sources in [next.config.js](https://github.com/KrystalZhang612/K-RealEstate-App/blob/main/next.config.js):
+```JavaScript 
+module.exports = {
+  reactStrictMode: true,
+  images:{
+    domains:['bayut-production.s3.eu-central-1.amazonaws.com']}}
+```
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

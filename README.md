@@ -28,6 +28,15 @@ A modern real estate React and Next.js application with rental homes and for sal
 [Tags and Topics]()<br/> 
 # Contribution
 [Author]()
+# Compatiability 
+| Version           | Supported          |
+| -------           | ------------------ |
+| git 2.13.1+       | :white_check_mark: |
+| node js 16.15.1+  | ✅                 |
+| npm 5.6.1+        | :white_check_mark: |
+| yarn 3.0.0+       | ✅                 |
+# Method to Run & Test the Project Locally
+
 
 
 

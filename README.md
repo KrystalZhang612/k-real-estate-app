@@ -19,6 +19,20 @@ A modern real estate React and Next.js application with rental homes and for sal
 </p>
 
 
+# Build
+[Method to Run & Test the Project Locally]()<br/> 
+[Prerequisites & Setups]()<br/> 
+[Debugging&Troubleshooting]()<br/> 
+[Synchronous Developing Notes]()<br/> 
+[Testing Result]()<br/> 
+[Tags and Topics]()<br/> 
+# Contribution
+[Author]()
+
+
+
+
+
 
 
 ```bash

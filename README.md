@@ -21,7 +21,7 @@ A modern real estate React and Next.js application with rental homes and for sal
 
 # Build
 [Method to Run & Test the Project Locally](https://github.com/KrystalZhang612/K-RealEstate-App/blob/main/README.md#method-to-run--test-the-project-locally)<br/> 
-[Prerequisites & Setups]()<br/> 
+[Prerequisites & Setups](https://github.com/KrystalZhang612/K-RealEstate-App/blob/main/README.md#prerequisites--setups)<br/> 
 [Debugging&Troubleshooting]()<br/> 
 [Synchronous Developing Notes]()<br/> 
 [Testing Result]()<br/> 
@@ -64,6 +64,23 @@ A modern real estate React and Next.js application with rental homes and for sal
 
 
 # Prerequisites & Setups
+Initialize Next.js in Vscode terminal without using TypeScript or ESLint:
+```bash
+npx create-next-app@latest ./
+```
+Create [.babelrc](https://github.com/KrystalZhang612/K-RealEstate-App/blob/main/.babelrc) file and input:
+```babelrc
+ { "presets": ["next/babel"],
+  "plugins": [] }
+```
+Start the web server running at localhost:3000:
+```bash 
+npm run dev
+```
+Install needed dependencies:
+```bash 
+npm install @chakra-ui/react @emotion/react @emotion/styled axios framer-motion millify nprogress react-horizontal-scrolling-menu react-icons
+```
 
 
 

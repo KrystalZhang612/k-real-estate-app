@@ -50,6 +50,26 @@ A modern real estate React and Next.js application with rental homes and for sal
 ### Terminate the server by CONTROL+C
 ### Have fun browsing, filtering, renting, and selecting various of different properties! 
 # 🛠️ Developing Languages, Tools, and Techniques Needed
+[Vscode 1.74](https://code.visualstudio.com/updates/v1_74)<br/> 
+[JavaScript](https://www.javascript.com/)<br/> 
+[Next.JS](https://nextjs.org/)<br/> 
+[Chakra UI](https://chakra-ui.com/)<br/> 
+[RapidAPI Bayut API](https://rapidapi.com/apidojo/api/bayut)<br/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

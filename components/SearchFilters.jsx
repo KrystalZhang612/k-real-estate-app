@@ -29,7 +29,6 @@ export default function SearchFilters() {
 
         router.push({ pathname: path, query: query });
     };
-
     useEffect(() => {
         if (searchTerm !== '') {
             const fetchData = async () => {

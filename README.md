@@ -177,6 +177,15 @@ Implement all sections in navbar:<br/>
 
 # Tags and Topics
 full-stack, responsive, javascript, vscode, react-native-js, rapid-api, npm, npx, next-js, html5, css3, yarn, axios, real-estate-app, data-filtering.
+
+# NOTE:
+App Netlify deployment process:<br/> 
+Vscode -> public folder-> add new file named `_redirects` with inputs `/* /index.html 200`<br/> 
+Vscode-> Terminal -> `npm run build`<br/> 
+Right click the generated dist folder Reveal in files explorer/finder<br/> 
+Netlify-> overview-> Sites-> Drag dist folder to upload to deploy <br/> 
+Once done deploying, options-> edit site name -> customize site name <br/> 
+Browse the deployed public sites anytime.
 # Author
 Krystal Zhang
 https://github.com/KrystalZhang612<hr>

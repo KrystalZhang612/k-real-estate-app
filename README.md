@@ -185,7 +185,7 @@ Go to vercel.com/new <br/>
 Select the private/public Next.js Repo project git to deploy <br/>
 Customize site name. 
 # NOTICABLE ERROR
-Be aware of the `locationExternalIDs`in index.js, it is dynamic, refer to the specific API to always replace it to the correct external id. 
+Be aware of the `locationExternalIDs` from `properties/list`in index.js, it is dynamic, refer to the specific API to always replace it to the correct external id. 
 
 # Author
 Krystal Zhang

@@ -179,7 +179,11 @@ Implement all sections in navbar:<br/>
 full-stack, responsive, javascript, vscode, react-native-js, rapid-api, npm, npx, next-js, html5, css3, yarn, axios, real-estate-app, data-filtering.
 
 # NOTE:
-App Netlify deployment process:<br/> 
+Next.JS App Vercel deployment process:<br/> 
+Sign up Vercel with Github account<br/>
+Go to vercel.com/new <br/>
+Select the private/public Next.js Repo project git to deploy <br/>
+Customize site name. 
 
 # Author
 Krystal Zhang
